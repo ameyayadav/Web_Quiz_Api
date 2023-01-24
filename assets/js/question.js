@@ -1,4 +1,4 @@
-var myQuestions = [
+const  totalQuestions = [
     {
         question: "Who won the Premier League in 2015-2016 ?",
         answers: {
@@ -9,7 +9,7 @@ var myQuestions = [
         correctAnswer: "d"
     },
     {
-        question: "MO Salah signed for which Club in 2017?",
+        question: "MO Salah signed for which Club in 2017 ?",
         answers: {
             a: "Manchester United",
             b: "Liverpool",
@@ -59,26 +59,15 @@ var myQuestions = [
         correctAnswer: "d"
     },
     {
-        question: "Which choice is not part of CSS box model?",
+        question: "How many teams Qualify for World Cup Tournament",
         answers: {
-            a: "margin",
-            b: "border",
-            c: "paddding",
-            d: "paragraph"
+            a: "22",
+            b: "44",
+            c: "11",
+            d: "32"
         },
         correctAnswer: "d"
     },
-    {
-        question: "Which part of the URL https://app.uniswap.org/pool specifies the domain name?",
-        answers: {
-            a: "https",
-            b: "org",
-            c: "uniswap.org",
-            d: "app.uniswap"
-        },
-        correctAnswer: "c"
-    },
-    
+]
 
 
-console.log(myQuestions);
