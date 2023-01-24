@@ -1,4 +1,4 @@
-const  totalQuestions = [
+const Questions = [
     {
         question: "Who won the Premier League in 2015-2016 ?",
         answers: {
@@ -9,7 +9,7 @@ const  totalQuestions = [
         correctAnswer: "d"
     },
     {
-        question: "MO Salah signed for which Club in 2017 ?",
+        question: "MO Salah signed for which Club in 2017?",
         answers: {
             a: "Manchester United",
             b: "Liverpool",
@@ -19,7 +19,7 @@ const  totalQuestions = [
         correctAnswer: "b"
     },
     {
-        question: "Who won the World Cup in 2018",
+        question: "Who won the World Cup in 2018?",
         answers: {
             a: "Brazil",
             b: "France",
@@ -29,7 +29,7 @@ const  totalQuestions = [
         correctAnswer: "b"
     },
     {
-        question: "How many Ballon D'ors Messi won ",
+        question: "How many Ballon D'ors Messi won?",
         answers: {
             a: "4",
             b: "5",
@@ -59,7 +59,7 @@ const  totalQuestions = [
         correctAnswer: "d"
     },
     {
-        question: "How many teams Qualify for World Cup Tournament",
+        question: "How many teams Qualify for World Cup Tournament?",
         answers: {
             a: "22",
             b: "44",
@@ -70,4 +70,4 @@ const  totalQuestions = [
     },
 ]
 
-
+        console.log(Questions);              
