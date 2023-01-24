@@ -1,4 +1,4 @@
-var myQuestions = [
+const totalQuestions = [
     {
         question: "Who won the Premier League in 2015-2016 ?",
         answers: {
@@ -9,7 +9,7 @@ var myQuestions = [
         correctAnswer: "d"
     },
     {
-        question: "MO Salah signed for which Club?",
+        question: "MO Salah signed for which Club in 2017?",
         answers: {
             a: "Manchester United",
             b: "Liverpool",
@@ -19,7 +19,7 @@ var myQuestions = [
         correctAnswer: "b"
     },
     {
-        question: "Who won the World Cup in 2018",
+        question: "Who won the World Cup in 2018?",
         answers: {
             a: "Brazil",
             b: "France",
@@ -29,76 +29,45 @@ var myQuestions = [
         correctAnswer: "b"
     },
     {
-        question: "Which CSS property will not trigger layout recalculation?",
+        question: "How many Ballon D'ors Messi won?",
         answers: {
-            a: "top",
-            b: "opacity",
-            c: "width",
-            d: "height"
-        },
-        correctAnswer: "b"
-    },
-    {
-        question: "What does the === comparison operator do?",
-        answers: {
-            a: "It sets one variable equal to another in both value and type",
-            b: "It tests for equality of type only",
-            c: "It tests for equality of value only",
-            d: "It tests for equality of value and type"
-        },
-        correctAnswer: "d"
-    },
-    {
-        question: "Which choice is not a value of the type attribute of the <input> element?",
-        answers: {
-            a: "range",
-            b: "address",
-            c: "date",
-            d: "password"
-        },
-        correctAnswer: "b"
-    },
-    {
-        question: "Which choice is not part of CSS box model?",
-        answers: {
-            a: "margin",
-            b: "border",
-            c: "paddding",
-            d: "paragraph"
-        },
-        correctAnswer: "d"
-    },
-    {
-        question: "Which part of the URL https://app.uniswap.org/pool specifies the domain name?",
-        answers: {
-            a: "https",
-            b: "org",
-            c: "uniswap.org",
-            d: "app.uniswap"
+            a: "4",
+            b: "5",
+            c: "8",
+            d: "6"
         },
         correctAnswer: "c"
     },
     {
-        question: "Which HTML element is not considered a landmark element?",
+        question: "Who scored the famous title-winning goal for Manchester City against QPR?",
         answers: {
-            a: "<form>",
-            b: "<ul>",
-            c: "<main>",
-            d: "<nav>"
+            a: "Balotelli",
+            b: "Sergio Augero",
+            c: "Ronaldo",
+            d: "Samir Nasri",
         },
         correctAnswer: "b"
     },
     {
-        question: "Which statement is true when an HTML tag has been deprecated?",
+        question: "Who's the current manager of Real Madrid",
         answers: {
-            a: "It employs code that can be viewed only on a desktop computer",
-            b: "It is obsolete and is not recommended for use in marking web content",
-            c: "It employs code that will require users to update their browsers",
-            d: "It employs incorrect syntax that will cause the browser to crash"
+            a: "Arsene Wenger",
+            b: "Pep Guardiola",
+            c: "Alex Ferguson",
+            d: "Carlo Ancelott"
         },
-        correctAnswer: "b"
+        correctAnswer: "d"
+    },
+    {
+        question: "How many teams Qualify for World Cup Tournament?",
+        answers: {
+            a: "22",
+            b: "44",
+            c: "11",
+            d: "32"
+        },
+        correctAnswer: "d"
     },
 ]
 
-
-console.log(myQuestions);
+        console.log(totalQuestions);              
