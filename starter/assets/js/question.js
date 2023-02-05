@@ -1,6 +1,6 @@
 const totalQuestions = [
     {
-        question: "Who won the Premier League in 2015-2016 ?",
+        questions: "Who won the Premier League in 2015-2016 ?",
         answers: {
             a: "Manchester United",
             b: "Liverpool",
@@ -9,7 +9,7 @@ const totalQuestions = [
         correctAnswer: "d"
     },
     {
-        question: "MO Salah signed for which Club in 2017?",
+        questions: "MO Salah signed for which Club in 2017?",
         answers: {
             a: "Manchester United",
             b: "Liverpool",
@@ -19,7 +19,7 @@ const totalQuestions = [
         correctAnswer: "b"
     },
     {
-        question: "Who won the World Cup in 2018?",
+        questions: "Who won the World Cup in 2018?",
         answers: {
             a: "Brazil",
             b: "France",
@@ -29,7 +29,7 @@ const totalQuestions = [
         correctAnswer: "b"
     },
     {
-        question: "How many Ballon D'ors Messi won?",
+        questions: "How many Ballon D'ors Messi won?",
         answers: {
             a: "4",
             b: "5",
@@ -39,7 +39,7 @@ const totalQuestions = [
         correctAnswer: "c"
     },
     {
-        question: "Who scored the famous title-winning goal for Manchester City against QPR?",
+        questions: "Who scored the famous title-winning goal for Manchester City against QPR?",
         answers: {
             a: "Balotelli",
             b: "Sergio Augero",
@@ -49,7 +49,7 @@ const totalQuestions = [
         correctAnswer: "b"
     },
     {
-        question: "Who's the current manager of Real Madrid",
+        questions: "Who's the current manager of Real Madrid",
         answers: {
             a: "Arsene Wenger",
             b: "Pep Guardiola",
@@ -59,7 +59,7 @@ const totalQuestions = [
         correctAnswer: "d"
     },
     {
-        question: "How many teams Qualify for World Cup Tournament?",
+        questions: "How many teams Qualify for World Cup Tournament?",
         answers: {
             a: "22",
             b: "44",
