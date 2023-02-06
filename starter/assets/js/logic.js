@@ -12,7 +12,7 @@ const resultEl =  document.querySelector("#ans-result");
 const resEl = document.querySelector("#result");
 const feedbackEL =  document.querySelector("#feedback");
 const choiceList = choicesButton.childNodes;
-const finalEl = document.querySelector("#fianl-score");
+const finalEl = document.querySelector("#final-score");
 
  
 let timer;
@@ -95,7 +95,7 @@ function endScreen() {
   quesButton.classList.add("hide");
   resultEl.classList.add("hide");
   screenButton.classList.add("show");
-  finalEl.innerHTML = correctCounter;
+  finalEl.textContent = correctCounter;
 }
 // clear the questions
 function clearpreviousQuestion(){
