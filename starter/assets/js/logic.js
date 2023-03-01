@@ -87,7 +87,9 @@ function showQuestion(i){
   }
   for(let i = 0; i < choiceList.length; i++) {
     choiceList[i].addEventListener("click", clickOption)  
+
   }
+
 }
 // to show the end screen
 
@@ -105,6 +107,9 @@ function clearpreviousQuestion(){
 } 
 
 function userChoice() {
+  console.log(userInput);
+  console.log(totalQuestions);
+  console.log(currentQuestions);
   if(userInput === totalQuestions[currentQuestions].correctAnswer) {
       console.log("You choose the right answer!");
       correctCounter++;
@@ -134,23 +139,28 @@ function hideResult() {
 function clickOption(event) {
   let quizChoice = event.target.textContent[0];
   console.log(`User choose ${quizChoice}`);
+  userInput=quizChoice
   console.log(`The right answer is ${totalQuestions[currentQuestions].correctAnswer}`);
 
   userChoice();
   clearpreviousQuestion();
   displayResult();
 
-  if (currentQuestions < totalQuestions.length - 1) {
-    currentQuestions++;
-      endScreen();
-      console.log(`Current question is No. ${currentQuestions}`);
-  } else {
-      setTimeout(hideResult, 1500);
-      currentQuestions++;
-      showQuestion(currentQuestions);
-      console.log(`Current question is [${currentQuestions}]`);
-  }
+  currentQuestions++
+  showQuestion(currentQuestions)
+
+//   if (currentQuestions < totalQuestions.length - 1) {
+//     currentQuestions++;
+//       endScreen();
+//       console.log(`Current question is No. ${currentQuestions}`);
+//   } else {
+//       setTimeout(hideResult, 1500);
+//       currentQuestions++;
+//       showQuestion(currentQuestions);
+//       console.log(`Current question is [${currentQuestions}]`);
+//   }
 }
+
 // function is created to set the timer and time interval
 
 function startsTimer() {
