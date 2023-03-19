@@ -100,11 +100,16 @@ function endScreen() {
   finalEl.textContent = correctCounter;
 }
 // clear the questions
-function clearpreviousQuestion(){
-  quesButton.textContent = "";
-  choicesButton.textContent = "";
+// function clearpreviousQuestion(){
+//   quesButton.textContent = "";
+//   choicesButton.textContent = "";
 
-} 
+// } 
+
+function clearpreviousQuestion() {
+  choicesButton.textContent = "";
+}
+
 
 function userChoice() {
   console.log(userInput);
